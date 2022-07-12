@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Final Project</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="page">
+        <!-- === START MASTHEAD === -->
+        <header class="masthead" role="banner">
+            <div class="heading">
+                <img class="myImage" alt="Hostel Logo" src="images/hostel_logo.png" />
+                <h1>Hostel Vivian</h1>
+            </div>
+
+            <nav role="navigation">
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">Rooms & Rates</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href=" ">Hostel Resources</a>
+                        <ul class="subnav">
+                            <li><a href="https://www.booking.com/">Booking.com</a></li>
+                            <li><a href="https://www.hostelworld.com/">HostelWorld.com</a></li>
+                            <li><a href="https://www.hostel.com/">Hostel.com</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+                        <!-- === START SIDEBAR === -->
+                        <div class="sidebar">
+                                <article class="info">
+                                    <h3>About The Owner</h3>
+                                    <p>My name is Vivian Kyereme. I am currently a registered nurse and clinical quality adivisor
+                                        a healthcare facility in the Twin Cities. I am originally from Minnesota and I did my
+                                        undergrad at Ashland University and got a bachelors of science degree in nursing.
+                                        I also obtained a masters degree in nursing at the University
+                                        of Mary and throughout my journey within healthcare, I got to acquire a lot of good skills.
+                                        I am currently learning how to code to become a web developer.
+                                        I enjoy spending time with my family, traveling, dancing, and trying new things!</p>
+                                </article>
+                
+                                <aside class="more">
+                                    <h4>More about my blog</h4>
+                                    <p><a href="https://nursinginmelanin.com">Link</a> to nursing blog</p>
+                                </aside>
+                            </div>
+            <!-- === START MAIN === -->
+            <main role="main">
+                <article>
+                    <div class="about">
+                        <h1>Request More Information</h1>
+                    </div>
+                    <div class="form">
+                        <br><br>
+                        First Name:
+                        <input type="text" id="firstname"><br><br>
+                        Last Name:
+                        <input type="text" id="lastname"><br><br>
+                        Email:
+                        <input type="text" id="email"><br><br>
+                        Phone Number:
+                        <input type="text" id="number"><br><br>
+                        Notes:
+                        <textarea rows="4" cols="50" id="notes"></textarea><br><br>
+                        <button id="myBtn" type="submit" onClick="myFunction()">Submit</button>
+                        <button id="myBtn2" type="submit" onClick="clear()">Clear</button>
+
+                        <p id="display"></p>
+
+                    </div>
+                    <br /><br />
+                    <span class="icons">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-instagram"></i>
+                    </span>
+                    <br />
+                </article>
+
+            </main>
+
+        </div>
+
+        <!-- === end container === -->
+
+        <!-- === START PAGE FOOTER === -->
+        <footer role="contentinfo" class="footer">
+            <p><small>&copy; Copyright 2022, Vivian Kyereme, <a href="mailto:vkyereme28@gmail.com">vkyereme28@gmail.com</a></small></p>
+        </footer>
+        <!-- === end footer === -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

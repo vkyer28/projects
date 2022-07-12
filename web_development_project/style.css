@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+body {
+    background-color: #000000;
+    background-image: url("images/stardust.png");
+}
+
+.icons {
+	font-size:1.5em;
+	color:blue;
+}
+
+.heading h1 {
+    color: #556B2F;
+    font-size: 55px;
+    text-align: center;
+    margin-right: 34%;
+    margin-top: -1em;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.myImage {
+    margin-left: 0.8%;
+    position:relative;
+    top:33px;
+    height: 140px;
+    width: 180px;
+    
+}
+
+/*** Nav Bar ***/
+.nav {
+	list-style-type: none; /* No bullet markers */
+	background-color: #696969; /* nav bar color */
+	margin: 0;
+    padding: 0;
+    overflow: hidden; /* Contain links and clip any overflow */ 
+
+}
+
+/* navbar list items */
+.nav li {
+    float: left;
+}
+
+/* navbar links */
+.nav li a {
+    display: block; /* Whole box instead of just text */
+    color: #FFFFFF;
+    font-size: 19px;
+    text-align: center;
+    padding: 14px 30px;	/* For formatting size of link boxes */
+    text-decoration: none;
+}
+
+/*** Nav Bar Links when Mouse Hovers ***/
+.nav li a:hover{
+	background-color: #808000;
+}
+
+/*** Dropdown Container ***/
+.nav .subnav {
+	left: -999em; /* begin with subnav off screen */
+	position: absolute;
+	z-index: 1;
+}
+
+/* dropdown appearance */
+.nav li:hover .subnav {
+	left: auto; /* puts subnav back in natural spot */
+    background-color: #2F4F4F;
+    list-style-type: none;
+	display:block;
+	color: #2F4F4F;
+	padding-left:0px;
+}
+
+/* dropdown list items */
+.subnav li {
+	float: none;	/* Vertical */
+}
+
+/* dropdown link mouse hover */
+.subnav li a:hover {
+    background-color: #808000;
+}
+
+main {
+    background-color: #FFF8DC;
+    padding: 1em;
+    padding-left: 1em;
+    opacity: 1; 
+
+    font-size: 18px;
+}
+
+main h1, h2 {
+	margin-top: 0em;
+    padding-top: 1em;
+    font-size: 30px;
+    font-family: 'Merriweather', sans-serif;
+}
+
+
+
+.about {
+	display: inline-block;
+	background-color: black;
+	color: white;
+	padding: 0 1em;
+	line-height: 0.5em;
+	box-shadow: 2px 2px 4px 1px #999;
+    opacity: 1;
+    
+}
+
+.sidebar {
+    background-color: #D3D3D3;
+    float: right;
+    width: 500px;
+    margin: 1.875em;
+    border: 5px solid #000000;
+    padding: 1.0em;
+    opacity: 1;
+    margin-right: 4em;
+}
+
+.sidebar h3 {
+    font-size: 25px;
+}
+
+.list{
+    font-family: 'Arimo', sans-serif;
+}
+
+.form{
+    font-size: 20px;
+}
+
+.form input{
+    padding: 0.6em;
+    width: 170px;
+}
+
+.form button{
+    padding: 1em;
+    width: 100px;
+}
+
+.footer {
+    padding: 0.5em;
+    background-color: #FFF8DC;
+    padding-left: 1em;
+	opacity: 1;
+    clear: left;
+}
+
+
